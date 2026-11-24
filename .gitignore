@@ -52,7 +52,7 @@ signing.properties
 .android/
 *.avd/
 
-# IDE, OS and local agent tooling
+# IDE and OS metadata
 .idea/
 .vscode/
 .zed/
@@ -60,8 +60,10 @@ signing.properties
 .DS_Store
 Thumbs.db
 Desktop.ini
-/.agents/
-/skills-lock.json
+
+# Share project skills and skills-lock.json; keep other agent state local.
+/.agents/*
+!/.agents/skills/
 
 # Internal coursework, student identifiers, and uncurated test evidence
 /AGENTS.md
