@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/homeFragment" android:title="@string/home" android:icon="@drawable/ic_hub_home" />
+    <item android:id="@+id/mapFragment" android:title="@string/map" android:icon="@drawable/ic_hub_map" />
+    <item android:id="@+id/savedFragment" android:title="@string/saved" android:icon="@drawable/ic_hub_saved" />
+    <item android:id="@+id/profileFragment" android:title="@string/profile" android:icon="@drawable/ic_hub_profile" />
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/hub_graph" app:startDestination="@id/homeFragment">
+    <fragment android:id="@+id/homeFragment" android:name="id.ac.ceh.HomeFragment" android:label="@string/home" />
+    <fragment android:id="@+id/mapFragment" android:name="id.ac.ceh.MapFragment" android:label="@string/map">
+        <argument android:name="pickMode" app:argType="boolean" android:defaultValue="false" />
+    </fragment>
+    <fragment android:id="@+id/savedFragment" android:name="id.ac.ceh.SavedFragment" android:label="@string/saved" />
+    <fragment android:id="@+id/profileFragment" android:name="id.ac.ceh.ProfileFragment" android:label="@string/profile" />
+    <fragment android:id="@+id/eventDetailFragment" android:name="id.ac.ceh.EventDetailFragment" android:label="@string/details">
+        <argument android:name="eventId" app:argType="long" />
+    </fragment>
+    <fragment android:id="@+id/createFragment" android:name="id.ac.ceh.CreateFragment" android:label="@string/editor">
+        <argument android:name="eventId" app:argType="long" android:defaultValue="0L" />
+    </fragment>
+    <fragment android:id="@+id/authFragment" android:name="id.ac.ceh.AuthFragment" android:label="@string/sign_in" />
+</navigation>

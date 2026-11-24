@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cloud_auth_register">Daftar</string>
+    <string name="cloud_auth_email">Email</string>
+    <string name="cloud_auth_password">Kata sandi</string>
+    <string name="cloud_auth_login_intro">Masuk untuk menyimpan acara, mengonfirmasi kehadiran, dan mengelola acara milikmu.</string>
+    <string name="cloud_auth_register_intro">Buat akun dengan email dan kata sandi.</string>
+    <string name="cloud_auth_switch_to_login">Sudah punya akun? Masuk</string>
+    <string name="cloud_auth_switch_to_register">Belum punya akun? Daftar</string>
+    <string name="cloud_auth_busy">Sedang memproses permintaan…</string>
+
+    <string name="cloud_auth_invalid_email">Masukkan alamat email yang valid.</string>
+    <string name="cloud_auth_short_password">Kata sandi harus berisi minimal 6 karakter.</string>
+    <string name="cloud_auth_invalid_credentials">Email atau kata sandi tidak cocok. Periksa keduanya dan coba lagi.</string>
+    <string name="cloud_auth_unavailable">Masuk dan daftar belum tersedia pada versi ini.</string>
+    <string name="cloud_auth_network">Tidak dapat terhubung. Periksa koneksi internet dan coba lagi.</string>
+    <string name="cloud_auth_failed">Permintaan tidak dapat diselesaikan. Coba lagi.</string>
+    <string name="cloud_auth_email_in_use">Email ini sudah digunakan. Masuk atau gunakan email lain.</string>
+    <string name="cloud_auth_weak_password">Kata sandi terlalu lemah. Gunakan kata sandi yang lebih kuat.</string>
+    <string name="cloud_auth_rate_limit">Terlalu banyak percobaan. Tunggu sebentar, lalu coba lagi.</string>
+</resources>

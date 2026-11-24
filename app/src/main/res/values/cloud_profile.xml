@@ -1,0 +1,9 @@
+<resources>
+    <string name="cloud_account">Akun Firebase</string>
+    <string name="cloud_profile_title">Profil cloud</string>
+    <string name="cloud_profile_failed">Profil cloud belum dapat dibaca atau disimpan. Acara lokal tetap tersedia.</string>
+    <string name="cloud_profile_retry">Muat ulang profil</string>
+    <string name="cloud_profile_saved">Nama tampilan tersimpan di cloud.</string>
+    <string name="cloud_profile_name">Nama tampilan</string>
+    <string name="cloud_profile_save">Simpan profil</string>
+</resources>

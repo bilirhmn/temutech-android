@@ -1,0 +1,22 @@
+<resources>
+    <string name="map_locate">Lokasi saya</string>
+    <string name="map_loading">Memuat peta…</string>
+    <string name="map_unavailable_device">Peta tidak tersedia di perangkat ini.</string>
+    <string name="map_unavailable_editor">Kamu masih bisa mengisi nama tempat. Koordinat yang sudah dipilih tidak berubah.</string>
+    <string name="map_back_editor">Kembali ke formulir</string>
+    <string name="map_failed_browse">Peta tidak dapat dimuat. Coba lagi atau buka daftar lokasi acara.</string>
+    <string name="map_failed_pick">Peta tidak dapat dimuat. Coba lagi atau kembali ke draf Anda.</string>
+    <string name="map_retry">Muat ulang</string>
+    <string name="map_pick_hint">Geser peta atau tekan lama untuk memusatkan titik, lalu pilih Pakai titik.</string>
+    <string name="map_use_point">Pakai titik</string>
+    <string name="map_browse_hint">Ketuk penanda untuk melihat ringkasan acara.</string>
+    <string name="map_no_markers">Belum ada acara dengan koordinat.</string>
+    <string name="map_open_event">Buka detail acara</string>
+    <string name="map_list">Daftar lokasi</string>
+    <string name="map_close">Tutup</string>
+    <string name="map_cancel">Batal</string>
+    <string name="map_attribution">OpenFreeMap · © OpenMapTiles · © OpenStreetMap contributors</string>
+    <string name="nearby">Urutkan dari lokasi saya</string>
+    <string name="nearby_active">Lokasi aktif · urutan terdekat</string>
+    <string name="distance_km">%1$.1f km</string>
+</resources>

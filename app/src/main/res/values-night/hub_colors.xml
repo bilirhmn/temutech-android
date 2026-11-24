@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hub_primary">#BAC8FF</color>
+    <color name="hub_on_primary">#142954</color>
+    <color name="hub_primary_container">#263B75</color>
+    <color name="hub_on_primary_container">#E7ECFF</color>
+    <color name="hub_secondary">#E9C76C</color>
+    <color name="hub_on_secondary">#332500</color>
+    <color name="hub_secondary_container">#493700</color>
+    <color name="hub_on_secondary_container">#FFE7A3</color>
+    <color name="hub_background">#101827</color>
+    <color name="hub_surface">#182235</color>
+    <color name="hub_on_surface">#EDF2FF</color>
+    <color name="hub_surface_variant">#27344A</color>
+    <color name="hub_on_surface_variant">#C1CCE0</color>
+    <color name="hub_outline">#98A8BF</color>
+    <color name="hub_error">#FFB4AC</color>
+    <color name="hub_on_error">#5A1210</color>
+    <color name="hub_error_container">#701F1A</color>
+    <color name="hub_on_error_container">#FFDAD5</color>
+</resources>

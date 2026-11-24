@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CommunityEventHub" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/hub_primary</item>
+        <item name="colorOnPrimary">@color/hub_on_primary</item>
+        <item name="colorPrimaryContainer">@color/hub_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/hub_on_primary_container</item>
+        <item name="colorSecondary">@color/hub_secondary</item>
+        <item name="colorOnSecondary">@color/hub_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/hub_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/hub_on_secondary_container</item>
+        <item name="android:colorBackground">@color/hub_background</item>
+        <item name="colorOnBackground">@color/hub_on_surface</item>
+        <item name="colorSurface">@color/hub_surface</item>
+        <item name="colorOnSurface">@color/hub_on_surface</item>
+        <item name="colorSurfaceVariant">@color/hub_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/hub_on_surface_variant</item>
+        <item name="colorOutline">@color/hub_outline</item>
+        <item name="colorError">@color/hub_error</item>
+        <item name="colorOnError">@color/hub_on_error</item>
+        <item name="colorErrorContainer">@color/hub_error_container</item>
+        <item name="colorOnErrorContainer">@color/hub_on_error_container</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Hub.Control</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Hub.Card</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Hub.Dialog</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.Hub.CardTitle</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.Hub.Body</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.Hub.Metadata</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.Hub.Action</item>
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
+    </style>
+    <style name="ShapeAppearance.Hub.Control" parent="ShapeAppearance.Material3.Corner.Medium"><item name="cornerSize">@dimen/hub_radius_control</item></style>
+    <style name="ShapeAppearance.Hub.Card" parent="ShapeAppearance.Material3.Corner.Medium"><item name="cornerSize">@dimen/hub_radius_card</item></style>
+    <style name="ShapeAppearance.Hub.Dialog" parent="ShapeAppearance.Material3.Corner.Large"><item name="cornerSize">@dimen/hub_radius_dialog</item></style>
+    <style name="TextAppearance.Hub.CardTitle" parent="TextAppearance.Material3.TitleMedium"><item name="android:textSize">18sp</item><item name="lineHeight">24sp</item></style>
+    <style name="TextAppearance.Hub.Body" parent="TextAppearance.Material3.BodyLarge"><item name="android:textSize">16sp</item><item name="lineHeight">24sp</item></style>
+    <style name="TextAppearance.Hub.Metadata" parent="TextAppearance.Material3.BodyMedium"><item name="android:textSize">14sp</item><item name="lineHeight">20sp</item></style>
+    <style name="TextAppearance.Hub.Action" parent="TextAppearance.Material3.LabelLarge"><item name="android:textAllCaps">false</item><item name="lineHeight">20sp</item></style>
+</resources>

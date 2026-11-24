@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hub_space_small">8dp</dimen>
+    <dimen name="hub_space_medium">16dp</dimen>
+    <dimen name="hub_space_large">24dp</dimen>
+    <dimen name="hub_radius_control">12dp</dimen>
+    <dimen name="hub_radius_card">16dp</dimen>
+    <dimen name="hub_radius_dialog">24dp</dimen>
+    <dimen name="hub_min_target">48dp</dimen>
+    <dimen name="hub_focus_ring">2dp</dimen>
+</resources>

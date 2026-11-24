@@ -1,0 +1,15 @@
+<resources>
+    <string name="hub_preview_title">Pratinjau komponen</string>
+    <string name="hub_preview_sample">Contoh: Lokakarya komunitas</string>
+    <string name="hub_preview_metadata">Sabtu, 09.00 · Bandung</string>
+    <string name="hub_preview_category">Workshop · dipilih</string>
+    <string name="hub_preview_open">Buka detail contoh</string>
+    <string name="hub_preview_loading">Memuat acara</string>
+    <string name="hub_preview_loading_hint">Daftar akan diperbarui setelah selesai.</string>
+    <string name="hub_preview_empty">Belum ada acara</string>
+    <string name="hub_preview_empty_hint">Coba ubah kategori atau kata kunci.</string>
+    <string name="hub_preview_error">Acara tidak dapat dimuat</string>
+    <string name="hub_preview_error_hint">Periksa koneksi, lalu coba lagi.</string>
+    <string name="hub_preview_retry">Coba lagi</string>
+    <string name="hub_preview_clicked">Aksi pratinjau dipilih.</string>
+</resources>

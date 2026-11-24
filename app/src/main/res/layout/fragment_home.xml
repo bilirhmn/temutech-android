@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="16dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/home_headline" android:textAppearance="?attr/textAppearanceHeadlineSmall" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/home_subtitle" android:textAppearance="?attr/textAppearanceBodyMedium" />
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/search" android:layout_marginTop="8dp" style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/search" android:inputType="text" android:maxLength="160" android:singleLine="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Spinner android:layout_width="match_parent" android:layout_height="48dp" android:id="@+id/category" android:contentDescription="@string/category" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/nearby" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/nearby" style="?attr/materialButtonOutlinedStyle" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <com.google.android.material.button.MaterialButton android:layout_width="0dp" android:layout_height="wrap_content" android:id="@+id/refresh" android:text="@string/dicoding_import" style="?attr/materialButtonOutlinedStyle" android:layout_weight="1" android:layout_marginHorizontal="2dp" />
+        <com.google.android.material.button.MaterialButton android:layout_width="0dp" android:layout_height="wrap_content" android:id="@+id/create" android:text="@string/create" android:layout_weight="1" android:layout_marginHorizontal="2dp" />
+    </LinearLayout>
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/progress" android:indeterminate="true" android:visibility="gone" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/empty" android:text="@string/no_events" android:textAppearance="?attr/textAppearanceBodyMedium" android:layout_marginTop="16dp" />
+    <androidx.recyclerview.widget.RecyclerView android:layout_width="match_parent" android:layout_height="0dp" android:id="@+id/list" android:layout_weight="1" android:clipToPadding="false" android:paddingTop="8dp" />
+</LinearLayout>

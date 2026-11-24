@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Community Event Hub</string>
+    <string name="home">Beranda</string>
+    <string name="map">Peta</string>
+    <string name="saved">Tersimpan</string>
+    <string name="profile">Profil</string>
+    <string name="details">Detail acara</string>
+    <string name="create">Buat acara</string>
+    <string name="editor">Formulir acara</string>
+    <string name="sign_in">Masuk</string>
+    <string name="sign_out">Keluar</string>
+    <string name="go_back">Kembali</string>
+    <string name="pick_map">Pilih lokasi di peta</string>
+    <string name="operation_failed">Operasi gagal. Silakan coba lagi.</string>
+    <string name="location_denied">Izin lokasi ditolak. Anda tetap bisa menjelajahi acara.</string>
+    <string name="location_disabled">Layanan lokasi sedang nonaktif. Kamu tetap bisa menjelajahi acara.</string>
+    <string name="location_unavailable">Posisi belum ditemukan. Kamu bisa coba lagi atau lanjut tanpa lokasi.</string>
+    <string name="search">Cari judul, tempat, atau deskripsi</string>
+    <string name="home_headline">Temukan acara teknologi dan belajar</string>
+    <string name="home_subtitle">Cari kegiatan yang cocok untukmu, atau buat acaramu sendiri.</string>
+    <string name="no_events">Tidak ada acara yang cocok. Coba ubah filter atau impor acara.</string>
+    <string name="required">Wajib diisi.</string>
+    <string name="saved_guest">Masuk untuk melihat acara tersimpan dan RSVP.</string>
+    <string name="saved_bookmarks">Bookmark</string>
+    <string name="saved_attending">Akan hadir</string>
+    <string name="saved_loading">Memuat daftar dari perangkat…</string>
+    <string name="saved_empty_bookmarks">Belum ada bookmark.</string>
+    <string name="saved_empty_attending">Belum ada acara yang akan dihadiri.</string>
+    <string name="saved_load_failed">Daftar tidak dapat dibaca dari perangkat.</string>
+    <string name="saved_retry">Coba lagi</string>
+    <string name="guest">Tamu</string>
+    <string name="demo_account">Akun demo</string>
+    <string name="my_events">Acara saya</string>
+    <string name="profile_empty">Belum ada acara yang kamu buat.</string>
+    <string name="demo_info">Akun demo hanya tersedia pada build debug. Tidak diperlukan sandi.</string>
+    <string name="auth_unavailable">Masuk belum tersedia pada versi ini.</string>
+    <string name="use_demo">Masuk sebagai demo</string>
+    <string name="detail_empty">Acara belum tersedia atau sudah dihapus.</string>
+    <string name="unbookmark">Hapus dari tersimpan</string>
+    <string name="bookmark">Simpan acara</string>
+    <string name="cancel_rsvp">Batalkan RSVP</string>
+    <string name="rsvp">RSVP hadir</string>
+    <string name="edit">Edit acara</string>
+    <string name="delete">Hapus acara</string>
+    <string name="delete_confirm">Hapus acara ini?</string>
+    <string name="delete_confirm_message">Acara ini beserta bookmark dan RSVP terkait akan dihapus dari perangkat.</string>
+    <string name="editor_unavailable">Masuk sebagai penyelenggara untuk membuka formulir ini.</string>
+    <string name="editor_loading">Memuat acara dari perangkat…</string>
+    <string name="editor_category">Kategori: %1$s</string>
+    <string name="editor_start_value">Mulai: %1$s</string>
+    <string name="editor_end_value">Selesai: %1$s</string>
+    <string name="editor_invalid_coordinates">Pilih ulang titik yang valid atau hapus koordinat.</string>
+    <string name="event_title">Judul</string>
+    <string name="description">Deskripsi (opsional)</string>
+    <string name="place">Nama tempat (opsional)</string>
+    <string name="image_url">URL gambar HTTPS (opsional)</string>
+    <string name="start_time">Pilih waktu mulai</string>
+    <string name="end_time">Pilih waktu selesai (opsional)</string>
+    <string name="clear_end">Hapus waktu selesai</string>
+    <string name="clear_location">Hapus koordinat</string>
+    <string name="coordinates">Koordinat: %1$.5f, %2$.5f</string>
+    <string name="invalid_end">Waktu selesai harus setelah waktu mulai.</string>
+    <string name="invalid_url">Masukkan URL HTTPS yang valid.</string>
+    <string name="submit">Simpan perubahan</string>
+    <string name="category">Kategori</string>
+    <string-array name="categories">
+        <item>Semua kategori</item>
+        <item>Musik</item>
+        <item>Olahraga</item>
+        <item>Workshop</item>
+        <item>Sosial</item>
+        <item>Seni</item>
+        <item>Webinar dan Seminar</item>
+        <item>Kelas dan Belajar</item>
+        <item>Komunitas Teknologi</item>
+    </string-array>
+</resources>

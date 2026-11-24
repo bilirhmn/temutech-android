@@ -1,0 +1,10 @@
+<resources>
+    <string name="dicoding_source">Sumber: Dicoding</string>
+    <string name="dicoding_import">Impor Dicoding</string>
+    <string name="dicoding_import_empty">Tidak ada acara baru untuk diimpor dari Dicoding.</string>
+    <string name="dicoding_import_done">Daftar acara Dicoding diperbarui.</string>
+    <string name="dicoding_import_failed">Impor Dicoding gagal. Acara yang sudah tersimpan tetap tersedia.</string>
+    <string name="dicoding_all_cities">Semua kota dan sumber</string>
+    <string name="dicoding_city">Kota Dicoding: %1$s</string>
+    <string name="dicoding_online">Daring</string>
+</resources>

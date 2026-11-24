@@ -1,0 +1,25 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isOwner(uid) {
+      return request.auth != null && request.auth.uid == uid;
+    }
+
+    function isValidProfile() {
+      let profile = request.resource.data;
+      return profile.keys().hasOnly(['displayName'])
+        && profile.displayName is string
+        && profile.displayName.size() >= 1
+        && profile.displayName.size() <= 80;
+    }
+
+    match /users/{uid} {
+      allow get: if isOwner(uid);
+      allow create, update: if isOwner(uid) && isValidProfile();
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
