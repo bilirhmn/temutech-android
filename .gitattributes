@@ -1,0 +1,13 @@
+# Normalize text in the index; keep platform-specific script line endings.
+* text=auto
+/gradlew text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.jar binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.pdf binary

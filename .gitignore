@@ -1,0 +1,76 @@
+# Gradle, Kotlin, Android build and native tool output
+.gradle/
+.kotlin/
+build/
+out/
+.cxx/
+.externalNativeBuild/
+captures/
+*.apk
+*.aab
+*.apks
+*.idsig
+*.hprof
+*.log
+node_modules/
+/firebase-debug.*
+/firestore-debug.*
+/.firebase/
+
+# Keep gradle/wrapper/gradle-wrapper.jar and any reviewed Room schemas trackable.
+
+# Local configuration and credentials (templates remain trackable)
+local.properties
+.env
+.env.*
+!.env.example
+!.env.*.example
+google-services.json
+.firebase-data/
+.firebaserc
+service-account*.json
+serviceAccount*.json
+*-firebase-adminsdk-*.json
+keystore.properties
+signing.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Local databases, emulator state and snapshots
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite3
+.android/
+*.avd/
+
+# IDE, OS and local agent tooling
+.idea/
+.vscode/
+.zed/
+*.iml
+.DS_Store
+Thumbs.db
+Desktop.ini
+/.agents/
+/skills-lock.json
+
+# Internal coursework, student identifiers, and uncurated test evidence
+/AGENTS.md
+/sources/
+/docs/evidence/
+/docs/planning/
+/docs/serah-terima/
+/docs/week-2/
+/docs/BUG_LOG.md
+/docs/PROGRESS.md
+/docs/TECHNICAL_DECISIONS.md
+/docs/TEST_RESULTS.md
