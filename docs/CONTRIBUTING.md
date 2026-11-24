@@ -16,7 +16,8 @@ These are manual commands for the maintainer. Verify the repository root, branch
 | `build/`, `app/build/`, `.gradle/`, SDK/AVD data, APKs and reports | Keep local. These include large signed benchmark APKs and generated results. Use an approved artifact channel instead if the team needs an APK. |
 | `app/google-services.json`, `local.properties`, `.env*`, signing keys, DB files | Keep local; `.env.example` and `local.properties.example` are exceptions for safe templates. Never force-add secrets. |
 | `sources/`, internal phase docs, `docs/week-2/`, `docs/evidence/`, `docs/serah-terima/` | Keep local by default. They include coursework PDFs, student identifiers, historical evidence, raw logs and an unconfirmed draft. Publish only reviewed excerpts through a separately approved channel; a private repo is not a secret store. |
-| `AGENTS.md`, `.agents/`, `skills-lock.json`, IDE state | Local workflow in this source-only policy. No app dependency on agent/editor files. If the team wants shared agent guidance, publish a reviewed copy that does not depend on private documents. |
+| `.agents/skills/`, `skills-lock.json` | Track shared project skills, their references, and their upstream source/revision metadata. These are editor tools, not Android build dependencies. |
+| `AGENTS.md`, other `.agents/` contents, IDE state | Keep local. The root `AGENTS.md` depends on internal project documents that are not part of the source checkout. |
 
 `.gitignore` does **not** untrack anything already in the index or remove history. If a real credential was committed or pushed, stop and rotate/revoke it as appropriate; removing the current file is not sufficient. If internal material is already tracked, agree on its disposition with the team before changing the index or rewriting history. Preserve local files and backups. Do not change repository visibility or publish course material without permission.
 
@@ -115,6 +116,20 @@ git add -- README.md docs/LOCAL_DEVELOPMENT.md docs/CONTRIBUTING.md
 git diff --cached --check
 git diff --cached
 git commit -m "docs(dev): document Android setup and shutdown"
+```
+
+### Share project agent skills
+
+On an existing repo, start `chore/share-agent-skills` from `dev` using the workflow above and open a PR back into `dev`. For a first import, this optional commit can be made on the initial branch with the other import commits. Team members can select the project skills in Zed after checking out the branch that contains them.
+
+Before publishing, review the third-party licenses at the upstream revisions in `skills-lock.json` and include required license texts or notices. Do not assume the app's license covers bundled skills. If a skill cannot be redistributed, leave its files out and document how teammates can obtain it from upstream.
+
+```powershell
+git add -- .gitignore docs/CONTRIBUTING.md .agents/skills/ skills-lock.json
+git diff --cached --check
+git diff --cached --name-status
+git diff --cached
+git commit -m "chore(tooling): share project agent skills"
 ```
 
 ### Publish the first baseline only on an empty remote
